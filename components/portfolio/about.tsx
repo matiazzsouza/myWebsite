@@ -16,8 +16,8 @@ export function About() {
           <Reveal className="mx-auto w-full max-w-[280px]">
             <div className="group relative aspect-square overflow-hidden rounded-2xl border border-border">
               <Image
-                src="/avatar-monogram.png"
-                alt={`Portrait monogram of ${profile.name}`}
+                src="/profile.png"
+                alt={`Portrait of ${profile.name}`}
                 fill
                 sizes="280px"
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
