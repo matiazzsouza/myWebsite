@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 const title = 'Mateus Souza Marinho — Backend Developer'
 const description =
-  'Backend Developer specializing in TypeScript, Node.js, Express.js and MySQL. Software Engineering student building secure, well-tested APIs.'
+  'Backend Developer specializing in TypeScript, Java, Python, Node.js and Linux. Software Engineering student building secure, well-tested APIs.'
 
 export const metadata: Metadata = {
   title,
@@ -26,8 +26,9 @@ export const metadata: Metadata = {
     'Backend Developer',
     'TypeScript',
     'Node.js',
-    'Express.js',
-    'MySQL',
+    'Java',
+    'Python',
+    'Linux',
     'API Developer',
     'Software Engineering',
   ],

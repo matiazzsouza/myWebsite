@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Mateus Souza Marinho',
   tagline: 'Backend Developer',
-  stack: ['TypeScript', 'Node.js', 'Express.js', 'MySQL'],
+  stack: ['TypeScript', 'Java', 'Python', 'Node.js', 'Linux'],
   location: 'Paulínia, São Paulo, Brazil',
   email: 'matiazzsouza@gmail.com',
   linkedin: 'https://www.linkedin.com/in/mateus-marinho-5a3517357',
@@ -28,11 +28,11 @@ export const navLinks = [
 export const skillGroups = [
   {
     category: 'Languages',
-    items: ['TypeScript', 'JavaScript', 'Python', 'C', 'C++'],
+    items: ['TypeScript', 'JavaScript', 'Java', 'Python', 'C', 'C++'],
   },
   {
     category: 'Backend',
-    items: ['Node.js', 'Express.js', 'REST APIs'],
+    items: ['Node.js', 'Spring Boot', 'REST APIs'],
   },
   {
     category: 'Frontend',
@@ -40,7 +40,7 @@ export const skillGroups = [
   },
   {
     category: 'Databases',
-    items: ['MySQL', 'Firebase Firestore', 'Oracle'],
+    items: ['Firebase Firestore', 'Oracle'],
   },
   {
     category: 'Tools',
@@ -58,6 +58,14 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: 'SporTime',
+    subtitle: 'Sports Social Network',
+    description:
+      'Co-founded and led backend development for a sports social network that connects athletes and helps users organize physical activities. Responsible for system architecture, backend team leadership, API development, and database modeling and management.',
+    tech: ['React 18', 'TypeScript', 'Vite', 'Supabase', 'PostgreSQL', 'Auth', 'Storage', 'Realtime'],
+    link: 'https://sport-connect-5y2d.vercel.app/',
+  },
+  {
     name: 'MesclaInvest',
     subtitle: 'Startup Investment Platform (Simulation)',
     description:
@@ -69,8 +77,8 @@ export const projects: Project[] = [
     name: 'NotaDez',
     subtitle: 'Academic Grade Management System',
     description:
-      'RESTful API for academic performance analysis, with business rules for pass/fail status, integrated with MySQL using Node.js and Express. Contributed to interface development and applied basic validation/security.',
-    tech: ['TypeScript', 'JavaScript', 'Node.js', 'Express.js', 'MySQL', 'HTML', 'CSS', 'Git/GitHub'],
+      'RESTful API for academic performance analysis, with business rules for pass/fail status. Contributed to interface development and applied basic validation and security.',
+    tech: ['TypeScript', 'JavaScript', 'Node.js', 'HTML', 'CSS', 'Git/GitHub'],
     link: 'https://github.com/matiazzsouza/ES-PI2-2025-T03-G14.git',
   },
   {
