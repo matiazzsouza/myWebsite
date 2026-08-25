@@ -58,6 +58,14 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: 'SporTime',
+    subtitle: 'Sports Social Network',
+    description:
+      'Co-founded and led backend development for a sports social network that connects athletes and helps users organize physical activities. Responsible for system architecture, backend team leadership, API development, and database modeling and management.',
+    tech: ['React 18', 'TypeScript', 'Vite', 'Supabase', 'PostgreSQL', 'Auth', 'Storage', 'Realtime'],
+    link: 'https://sport-connect-5y2d.vercel.app/',
+  },
+  {
     name: 'MesclaInvest',
     subtitle: 'Startup Investment Platform (Simulation)',
     description:
